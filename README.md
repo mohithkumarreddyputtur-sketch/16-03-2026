@@ -14,7 +14,7 @@ return 0;
 #include<string.h>
 int main()
 {
-char str[50]="PARDHASARADHI";
+char str[50]="PUTTURMOHITHKUMARREDDY";
 int len=strlen(str);
 printf("Length of the string:%d",len);
 return 0;
@@ -25,9 +25,9 @@ return 0;
 #include<string.h>
 int main()
 {
-char str[50]="PARDHASARADHI";
-char str1[50]="pardhasaradhi";
-char str2[50]="PARDHASARADHI";
+char str[50]="PUTTURMOHITHKUMARREDDY";
+char str1[50]="putturmohithkumarreddy";
+char str2[50]="PUTTURMOHITHKUMARREDDY";
 strlwr(str);
 strupr(str1);
 strrev(str2);
@@ -57,8 +57,8 @@ return 0;
 #include<stdio.h>
 int main()
 {
-char s1[50]="PARDHA";
-char s2[30]="SARADHI";
+char s1[50]="PUTTURMOHITH";
+char s2[30]="KUMARREDDY";
 strcat(s1,s2);
 printf("After concatenation:%s",s1);
 return 0;
@@ -68,8 +68,8 @@ return 0;
 #include<stdio.h>
 int main()
 {
-char s1[30]="pardha";
-char s2[30]="saradhi";
+char s1[30]="PUTTURMOHITH";
+char s2[30]="KUMARREDDY";
 strcpy(s1,s2);
 printf("Output string copy:%s",s1);
 return 0;
@@ -79,7 +79,7 @@ return 0;
 #include<stdio.h>
 int main()
 {
-char str[30]="PARDHASARADHI";
+char str[30]="PUTTURMOHITHKUMARREDDY";
 //gets [str]
 int i=0,len=0;
 while (str[i]!='\0'){
@@ -95,7 +95,7 @@ return 0;
 #include<string.h>
 int main()
 {
-char [50]="PARDHA SARADHI";
+char [50]="PUTTUR MOHITH KUMAR REDDY";
 int i; count=1;
 for (i=0;str[i]!='\0';i++){
 if(str[i]==' '){
@@ -110,8 +110,8 @@ return 0;
 #include<stdio.h>
 int main()
 {
-char str1[20]="PARDHA";
-char str2[20]="SARADHI";
+char str1[20]="PUTTURMOHITH";
+char str2[20]="KUMARREDDY";
 int i=0,j=0;
 while(str1[i]!='\0'){
 i++;}
@@ -129,7 +129,7 @@ return 0;
 #include<stdio.h>
 int main()
 {
-char str[20]="pardhasaradhi"
+char str[20]="putturmohithkumarreddy"
 int i=0;
 while(str[i]!='\0'){
 if (str[i]>='a'&&str[i]<='z'){
@@ -146,7 +146,7 @@ return 0;
 int main()
 {
 int i=0;
-char str[20]="PARDHASARADHI";
+char str[20]="PUTTURMOHITHKUMARREDDY";
 int i=0;
 while (str[i]>='A'&&str[i]<='Z'){
 str[i]=str[i]+32;
