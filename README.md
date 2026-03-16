@@ -160,7 +160,7 @@ return 0;
 #include<stdio.h>
 int main()
 {
-char str[10]="RAHUL";
+char str[10]="mohith";
 char rev[10];
 l=strlen(str);
 for(i=l-1;i>=0;i--){
@@ -171,6 +171,7 @@ rev[j]='\0';
 printf("reversed string% s",rev);
 return 0;
 }
+
 #include<stdio.h>
 #include<string.h>
 void main()
@@ -188,6 +189,7 @@ if(flag==1){
 printf("%d is not a pal",str);
 }else{
 printf("%d is pal,str);
+
 //count no.of consonants and vowels in a sentence
 #include<stdio.h>
 void main()
@@ -206,11 +208,12 @@ consonants++;
 }printf("d%\n,vowels);
 printf("d%\n,vowels);
 }
+
 //to remove duplicate
 #include<stdio.h>
 int main()
 {
-char star[100]="rahul"
+char star[100]="mohith"
 int i,j,k;
 for(i=0;str[i]!='\o';i++)
 {
