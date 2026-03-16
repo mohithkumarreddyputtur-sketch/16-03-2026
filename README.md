@@ -155,3 +155,75 @@ i++;
 printf(str);
 return 0;
 }
+
+//to reverse a string without using string function
+#include<stdio.h>
+int main()
+{
+char str[10]="RAHUL";
+char rev[10];
+l=strlen(str);
+for(i=l-1;i>=0;i--){
+rev[j]=str[i];
+j++;
+}
+rev[j]='\0';
+printf("reversed string% s",rev);
+return 0;
+}
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+char str[10]="malayalam";
+int,length,flag=0;
+length=strlen(str);
+for(i=0;i<lenght;i++){
+if(str[i]!=str[length-i-1]){
+flag=1;
+break;
+}
+}
+if(flag==1){
+printf("%d is not a pal",str);
+}else{
+printf("%d is pal,str);
+//count no.of consonants and vowels in a sentence
+#include<stdio.h>
+void main()
+{
+char sentence[30]="rahul sai";
+int i,vowels=0;consonants=0;
+char ch;
+for(i=0;sentence[i]!=0;'0\';i++){
+ch=sentence[i];
+if(ch='a'&& ch<='z'){
+if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+vowels++;
+else
+consonants++;
+}
+}printf("d%\n,vowels);
+printf("d%\n,vowels);
+}
+//to remove duplicate
+#include<stdio.h>
+int main()
+{
+char star[100]="rahul"
+int i,j,k;
+for(i=0;str[i]!='\o';i++)
+{
+for(j=i+1;str[j]!='\o';j++)
+{
+if(str[i]==str[j]){
+for(k=j;str[k]!='o\';k++){
+str[k]=str[k+1];
+}
+j--;
+}
+}
+}
+printf("string after remoivng duplicates:%s",str);
+return 0;
+}
